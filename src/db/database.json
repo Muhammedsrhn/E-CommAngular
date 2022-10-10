@@ -1,0 +1,59 @@
+{
+  "Restaurant": [
+    {
+      "name": "Kfc",
+      "email": "kfc@gmail.com",
+      "address": "türkiye",
+      "id": 3
+    }
+  ],
+  "Users": [
+    {
+      "name": "Muhammed",
+      "email": "Muhammed@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Sinan",
+      "email": "Sinan@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "Muhammedsrhn",
+      "email": "test@mail.com",
+      "password": "deneme123",
+      "id": 3
+    },
+    {
+      "name": "Muhammed",
+      "email": "muhammed@gmail.com",
+      "password": "aaaaaaaaaaaaaaaa",
+      "id": 4
+    },
+    {
+      "name": "Muhammed",
+      "email": "Muhammed@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "id": 6
+    },
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "id": 7
+    },
+    {
+      "name": "aaa",
+      "email": "aaa",
+      "password": "a",
+      "id": 8
+    }
+  ]
+}

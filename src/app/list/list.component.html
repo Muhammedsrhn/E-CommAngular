@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Email</th>
+            <th scope="col">Operation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of collection">
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.address}}</td>
+            <td>{{item.email}}</td>
+            <td> <i class="fa-solid fa-trash del" (click)="delteResto(item.id)"></i>
+                <a routerLink="/update/{{item.id}}"><i class="fa fa-edit del" style="margin-left: 20px;"></i></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
