@@ -24,15 +24,17 @@ export class SellerAuthComponent implements OnInit {
 
   LoginIn(body: Login) {
     this.service.SignIn(body).subscribe((result: any) => {
-      if (!result[0].name) {
+      if (typeof result[0] !== "object") {
         console.warn("login failed");
         this.fail = true;
         return;
-      }
-      console.log(result)
-      this.router.navigate(["seller-home"]);
-      localStorage.setItem("seller", JSON.stringify(result[0]))
+      } else {
+        this.router.navigate(["seller-home"]);
+        delete result.password;
+        console.log(result)
+        localStorage.setItem("seller", JSON.stringify(result[0]))
 
+      }
 
     })
   }
@@ -41,6 +43,7 @@ export class SellerAuthComponent implements OnInit {
     this.showLogin = true;
   }
 
+
   openSignUp() {
     this.showLogin = false;
   }
@@ -48,6 +51,9 @@ export class SellerAuthComponent implements OnInit {
   keypress() {
     setTimeout(() => {
       this.fail = false;
-    }, 1000)
+    }, 1500)
   }
+
+
+
 }

@@ -1,0 +1,31 @@
+.product-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    border: 1px solid rgb(194, 175, 175);
+    border-collapse: collapse;
+    background-color: #EA047E;
+}
+
+thead th {
+    background-color: rgb(35, 209, 73);
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+tbody td{
+    padding: 10px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+tbody tr:hover{
+    background-color: black;
+}
+
+
+

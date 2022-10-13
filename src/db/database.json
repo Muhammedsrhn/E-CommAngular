@@ -16,6 +16,41 @@
       "email": "srhn@gmail.com",
       "password": "srhn",
       "id": 3
+    },
+    {
+      "name": "a",
+      "email": "a@gmail.com",
+      "password": "a",
+      "id": 4
+    }
+  ],
+  "Products": [
+    {
+      "product": "Ceket",
+      "price": 55,
+      "color": "black",
+      "category": "giyim",
+      "description": "indirimde!!!",
+      "image": "http://image.io",
+      "id": 1
+    },
+    {
+      "product": "s",
+      "price": "100",
+      "color": "wwwww",
+      "category": "wwwwww",
+      "image": "wwwwwwww",
+      "description": "wwwwwwwwwwwwwww",
+      "id": 2
+    },
+    {
+      "name": "a",
+      "price": "a",
+      "color": "a",
+      "category": "a",
+      "image": "a",
+      "description": "a",
+      "id": 3
     }
   ]
 }

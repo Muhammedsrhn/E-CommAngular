@@ -21,10 +21,11 @@ export class SellerService {
     })
   };
   SignIn(body: Login) {
-   return this.http.get(this.userUrl + `?email=${body.email}&password=${body.password}`);
+    return this.http.get(this.userUrl + `?email=${body.email}&password=${body.password}`);
   }
+ 
   reloadSeller() {
-    if(localStorage.getItem("seller")){
+    if (localStorage.getItem("seller")) {
       this.issellerLogin.next(true)
       this.router.navigate(["seller-home"])
     }
