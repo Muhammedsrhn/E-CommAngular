@@ -1,6 +1,6 @@
 .product-list-wrapper {
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.8);
 
 }
@@ -17,6 +17,9 @@
     margin-right: 25px;
 }
 
+.product-list-wrapper h1 {
+    text-align: center;
+}
 
 
 .product-details {
@@ -32,7 +35,8 @@
     font-size: 20px;
     font-weight: bold;
 }
-.product-price{
+
+.product-price {
     font-weight: bolder;
 }
 
@@ -49,9 +53,10 @@ h5 {
     margin-right: 5px;
 }
 
-.product-footer a{
+.product-footer a {
     text-decoration: none;
 }
-.product-footer a:hover{
+
+.product-footer a:hover {
     color: black;
 }

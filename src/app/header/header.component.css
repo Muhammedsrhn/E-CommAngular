@@ -76,3 +76,7 @@ nav .nav-search button {
     cursor: pointer;
     color: blueviolet;
 }
+
+.suggest-products li a:hover{
+    color: rgb(175, 133, 133);
+}

@@ -23,7 +23,7 @@ export class ProductServiceService {
   }
 
   getProducts(id: any) {
-    return this.http.get<Product[]>(this.productUrl + "?id=" + id);
+    return this.http.get<Product[]>(this.productUrl + "?q=" + id);
   }
 
   updateProducts(id: Number, data: Product) {

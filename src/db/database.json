@@ -1,81 +1,10 @@
 {
   "Users": [
     {
-      "name": "Muhammed",
-      "email": "Muhammed@gmail.com",
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
       "id": 1
-    },
-    {
-      "name": "Sinan",
-      "email": "Sinan@gmail.com",
-      "password": "123456",
-      "id": 2
-    },
-    {
-      "name": "srhn",
-      "email": "srhn@gmail.com",
-      "password": "srhn",
-      "id": 3
-    },
-    {
-      "name": "a",
-      "email": "a@gmail.com",
-      "password": "a",
-      "id": 4
-    },
-    {
-      "name": "muhammed",
-      "email": "muhammed@gmail.com",
-      "password": "123456",
-      "id": 5
-    },
-    {
-      "name": "muhammed",
-      "email": "muhammed",
-      "password": "muhammed",
-      "id": 6
-    },
-    {
-      "name": "vvdfv",
-      "email": "vvdfv",
-      "password": "vvdfv",
-      "id": 7
-    },
-    {
-      "name": "aaaaaaaaaaaaaaaa",
-      "email": "aaaaaaaaaaaaa",
-      "password": "aaaaaaaaaaaaaaa",
-      "id": 8
-    },
-    {
-      "name": "aaaaaaaaa",
-      "email": "aaaaaaaaa",
-      "password": "aaaaaaaaa",
-      "id": 9
-    },
-    {
-      "name": "sssssss",
-      "email": "ssssssssss",
-      "password": "sssssssssssssss",
-      "id": 10
-    },
-    {
-      "name": "ddddd",
-      "email": "dddddddddd",
-      "password": "ddddddddddd",
-      "id": 11
-    },
-    {
-      "name": "a",
-      "email": "a",
-      "password": "a",
-      "id": 12
-    },
-    {
-      "name": "muhammed",
-      "email": "muhammed",
-      "password": "muhammed",
-      "id": 13
     }
   ],
   "Products": [
