@@ -1,0 +1,22 @@
+<div class="add-product">
+    <div class="signup">
+        <h2>Add New Product</h2>
+        <p class="add-product-messages" *ngIf="addControl">Product updated is successfully</p>
+        <form #addData="ngForm" (ngSubmit)="updateProduct(addData.value)">
+            <input type="text" class="form-input" ngModel="{{productData?.product}}" name="product"
+                placeholder="Enter Product Name">
+            <input type="text" class="form-input" ngModel="{{productData?.price}}" name="price"
+                placeholder="Enter Product Price">
+            <input type="text" class="form-input" ngModel="{{productData?.color}}" name="color"
+                placeholder="Enter Product Color">
+            <input type="text" class="form-input" ngModel="{{productData?.category}}" name="category"
+                placeholder="Enter Product Category">
+            <input type="text" class="form-input" ngModel="{{productData?.image}}" name="image"
+                placeholder="Enter Product Image Url">
+            <textarea type="text" class="form-input" ngModel="{{productData?.description}}" name="description"
+                placeholder="Enter Product Description" style="height: 50px;width:260px"></textarea>
+            <button class="form-add">Update Product</button>
+            <a routerLink="/seller-home" class="btn-back">Back</a>
+        </form>
+    </div>
+</div>

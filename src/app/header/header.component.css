@@ -38,7 +38,7 @@ nav .nav-search input {
     flex: 1;
     color: blueviolet;
     border: 1px solid blueviolet;
-    height: 35px;
+    height: 39px;
     border-right: 0px;
     outline: none;
 }
@@ -50,6 +50,29 @@ nav .nav-search button {
     border-left: 0px;
 }
 
-.header-link{
+.header-link {
     text-decoration: none;
+}
+
+.suggest-products {
+    display: list-item !important;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    width: 385px;
+    top: 40px;
+    border: 1px solid #fff;
+}
+
+.suggest-products li {
+    text-align: center;
+    padding: 5px;
+    margin-left: 0;
+    border: 0.5px solid #ddd;
+}
+
+
+.suggest-products li a {
+    cursor: pointer;
+    color: blueviolet;
 }

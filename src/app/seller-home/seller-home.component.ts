@@ -13,11 +13,20 @@ export class SellerHomeComponent implements OnInit {
   constructor(private productService: ProductServiceService) { }
 
   ngOnInit(): void {
-    this.productService.getProducts().subscribe((result) => {
+    this.getProducts();
+  }
+
+  deleteProduct(id: Number) {
+    this.productService.delProduct(id).subscribe((result) => {
+      this.getProducts();
+      console.log(result);
+    });
+  }
+
+  getProducts() {
+    this.productService.productsList().subscribe((result) => {
       this.productList = result;
       console.log(result)
     })
   }
-
-
 }

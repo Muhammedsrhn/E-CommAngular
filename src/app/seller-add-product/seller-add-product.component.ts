@@ -13,9 +13,7 @@ export class SellerAddProductComponent implements OnInit {
 
   constructor(private route: Router, private productService: ProductServiceService) { }
 
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void {}
 
 
   addProduct(data: Product) {
@@ -25,7 +23,6 @@ export class SellerAddProductComponent implements OnInit {
       setTimeout(() => {
         this.addControl=false
       }, 3000);
-    
     });
   }
 

@@ -24,7 +24,7 @@ export class SellerAuthComponent implements OnInit {
 
   LoginIn(body: Login) {
     this.service.SignIn(body).subscribe((result: any) => {
-      if (typeof result[0] !== "object") {
+      if (!result[0]) {
         console.warn("login failed");
         this.fail = true;
         return;

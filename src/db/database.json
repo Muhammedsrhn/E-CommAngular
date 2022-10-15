@@ -22,35 +22,134 @@
       "email": "a@gmail.com",
       "password": "a",
       "id": 4
+    },
+    {
+      "name": "muhammed",
+      "email": "muhammed@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "muhammed",
+      "email": "muhammed",
+      "password": "muhammed",
+      "id": 6
+    },
+    {
+      "name": "vvdfv",
+      "email": "vvdfv",
+      "password": "vvdfv",
+      "id": 7
+    },
+    {
+      "name": "aaaaaaaaaaaaaaaa",
+      "email": "aaaaaaaaaaaaa",
+      "password": "aaaaaaaaaaaaaaa",
+      "id": 8
+    },
+    {
+      "name": "aaaaaaaaa",
+      "email": "aaaaaaaaa",
+      "password": "aaaaaaaaa",
+      "id": 9
+    },
+    {
+      "name": "sssssss",
+      "email": "ssssssssss",
+      "password": "sssssssssssssss",
+      "id": 10
+    },
+    {
+      "name": "ddddd",
+      "email": "dddddddddd",
+      "password": "ddddddddddd",
+      "id": 11
+    },
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "id": 12
+    },
+    {
+      "name": "muhammed",
+      "email": "muhammed",
+      "password": "muhammed",
+      "id": 13
     }
   ],
   "Products": [
     {
-      "product": "Ceket",
-      "price": 55,
-      "color": "black",
-      "category": "giyim",
-      "description": "indirimde!!!",
-      "image": "http://image.io",
+      "product": "test",
+      "price": "5000$",
+      "color": "blue",
+      "category": "Computer",
+      "image": "https://cdn.akakce.com/z/msi/msi-alpha-17-b5eek-018xtr-ryzen-7-5800h-16-gb-512-gb-ssd-rx6600m-17-3-full-hd-notebook.jpg",
+      "description": "Computer is perfect..",
       "id": 1
     },
     {
-      "product": "s",
-      "price": "100",
-      "color": "wwwww",
-      "category": "wwwwww",
-      "image": "wwwwwwww",
-      "description": "wwwwwwwwwwwwwww",
-      "id": 2
+      "product": "Samsung s20",
+      "price": "3000$",
+      "color": "gray",
+      "category": "Phone",
+      "image": "https://cdn.akakce.com/samsung/samsung-galaxy-s20-128-gb-z.jpg",
+      "description": "Samsung s20 indirimde...",
+      "id": 8
     },
     {
-      "name": "a",
-      "price": "a",
-      "color": "a",
-      "category": "a",
-      "image": "a",
-      "description": "a",
-      "id": 3
+      "product": "Dijitsu",
+      "price": "4000$",
+      "color": "black",
+      "category": "television",
+      "image": "https://iis-akakce.akamaized.net/p.z?%2F%2Freimg%2Dteknosa%2Dcloud%2Dprod%2Emncdn%2Ecom%2Fmnresize%2F300%2F300%2Fproductimage%2F110019668%2F110019668%5F0%5FMC%2F50117466%2Ejpg",
+      "description": "Dijitsu DJTV501 4K Ultra HD 50\" 127 Ekran Uydu Alıcılı LED Televizyon\n",
+      "id": 9
+    },
+    {
+      "product": "Smart Clock",
+      "price": "100$",
+      "color": "black",
+      "category": "clock",
+      "image": "https://cdn.akakce.com/honor/honor-magicwatch-2-46-mm-z.jpg",
+      "description": "smart clock just 100$ ",
+      "id": 10
+    },
+    {
+      "product": "Nike Shoe",
+      "price": "50$",
+      "color": "black",
+      "category": "Shoe",
+      "image": "https://floimages.mncdn.com/mnpadding/600/900/FFFFFF/media/catalog/product/22-02/15/101118310_m2-1644914624.JPG?w=600",
+      "description": "Nike shoe just 50$",
+      "id": 11
+    },
+    {
+      "product": "Buzdolabı ",
+      "price": "7500$",
+      "color": "gray",
+      "category": "buzdolabı",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJfXqcoWERH-hbtSU_Q-K84_ZUe2ed53SSA&usqp=CAU",
+      "description": "Buzdolabı  no frost..",
+      "id": 12
+    },
+    {
+      "product": "Oven",
+      "price": "2000$",
+      "color": "black",
+      "category": "Oven",
+      "image": "https://m.media-amazon.com/images/I/618O0ywM1SL._SX679_.jpg",
+      "description": "Oven is very good",
+      "id": 13
+    },
+    {
+      "product": "Keyboard",
+      "price": "20$",
+      "color": "black",
+      "category": "keyboard",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCjQQA-W2eyEs6d_YG8YXn6byiKbL77MTf6Q&usqp=CAU",
+      "description": "keyboard is discount",
+      "id": 14
     }
   ]
 }
